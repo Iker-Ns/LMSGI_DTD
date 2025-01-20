@@ -1,0 +1,32 @@
+<Catalogo>
+    <Actores>
+        <Actor Id="1">
+            <Nombre>Tom Cruise</Nombre>
+            <Edad>56</Edad>
+        </Actor>
+        <Actor Id="2">
+            <Nombre>Brad Pitt</Nombre>
+            <Edad>55</Edad>
+        </Actor>
+        <Actor Id="3">
+            <Nombre>Angelina Jolie</Nombre>
+            <Edad>43</Edad>
+        </Actor>
+    </Actores>
+    <ListaPeliculas>
+        <Pelicula Id="1">
+            <Título Idioma="Español">Misión Imposible</Título>
+            <Director>Brian De Palma</Director>
+            <Año>1996</Año>
+            <Actores>
+                <Actor Id="1"/>
+            </Actores>
+        </Pelicula>
+    <ListaPeliculas>
+    <ListaRecomendaciónPeliculas>
+        <Recomendación Id="1">
+            <Pelicula Id="1"/>
+            <Pelicula Id="2"/>
+        </Recomendación>
+    </ListaRecomendaciónPeliculas>
+</Catalogo>
